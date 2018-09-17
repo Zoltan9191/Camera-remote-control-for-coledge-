@@ -1,2 +1,2 @@
-*.php linguist-vendored
+*. linguist-language=php
 *.css linguist-vendored=false
