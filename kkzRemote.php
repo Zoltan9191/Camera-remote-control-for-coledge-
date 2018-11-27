@@ -36,9 +36,7 @@ function post($Direction = null) {
     <script>
       var pictureFrame= document.getElementById("pictureTagId");
       (function updateImage() {
-        if (true) {          
-	    pictureFrame.src="http://192.168.0.101/jpg/image.jpg?" + Math.random();
-        }
+	pictureFrame.src="http://192.168.0.101/jpg/image.jpg?" + Math.random();  //Math.rand as query to change photo
         setTimeout(updateImage, 370);
        })()
      </script>
